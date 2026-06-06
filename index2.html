@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <link rel="icon" href="images/logo.jpeg" >
+    <link rel="stylesheet" href="./style.css" >
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="top">
+        <h1>Naresh</h1>
+        <p>Student | Web Developer | Programmer</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#timetable">Timetable</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <!-- About -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <img src="images/naresh.jpeg "
+                 alt="Profile Photo"
+                 title="My Profile Photo"
+                 width="250"
+                 height="250"
+                 title="naresh">
+
+            <p>
+                Hello! I am Naresh. I am a Computer Science student
+                interested in Web Development, Programming, and Data Science.
+            </p>
+
+            <h3>Career Goals</h3>
+            <ol>
+                <li>Software Developer</li>
+                <li>Web Developer</li>
+                <li>Data Scientist</li>
+            </ol>
+
+            <h3>Interests</h3>
+            <ul>
+                <li>Reading Books</li>
+                <li>Coding</li>
+                <li>Watching Movies</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Education -->
+        <section id="education">
+            <h2>Education</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th scope="col">Course</th>
+                        <th scope="col">College</th>
+                        <th scope="col">Year</th>
+                        <th scope="col">CGPA</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>B.Tech CSE</td>
+                        <td>SCSVMV University</td>
+                        <td>3rd Year</td>
+                        <td>8.52</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="4">Education Details</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Timetable -->
+        <section id="timetable">
+            <h2>College Timetable</h2>
+
+            <table border="1">
+                <tr>
+                    <th>Day</th>
+                    <th>9-10</th>
+                    <th>10-11</th>
+                    <th>11-12</th>
+                    <th>12-1</th>
+                </tr>
+
+                <tr>
+                    <td>Monday</td>
+                    <td>HTML</td>
+                    <td>CSS</td>
+                    <td rowspan="2">Lab</td>
+                    <td>Math</td>
+                </tr>
+
+                <tr>
+                    <td>Tuesday</td>
+                    <td colspan="2">Data Science</td>
+                    <td>Python</td>
+                </tr>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Skills -->
+        <section id="skills">
+            <h2>Skills</h2>
+
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Python</li>
+            </ul>
+
+            <h3>Soft Skills</h3>
+            <ul>
+                <li>Communication</li>
+                <li>Teamwork</li>
+                <li>Problem Solving</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Hobbies -->
+        <section>
+            <h2>Hobbies</h2>
+
+            <ol type="A">
+                <li>Reading</li>
+                <li>Music</li>
+                <li>Cricket</li>
+            </ol>
+        </section>
+
+        <hr>
+
+        <!-- Projects -->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <ul>
+                <li>
+                    <h3>Portfolio Website</h3>
+                    <p>Personal profile website created using HTML.</p>
+                </li>
+
+                <li>
+                    <h3>College Timetable</h3>
+                    <p>Timetable using tables, rowspan and colspan.</p>
+                </li>
+
+                <li>
+                    <h3>Calculator Layout</h3>
+                    <p>Simple calculator interface designed using HTML.</p>
+                </li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Favorite Websites -->
+        <section>
+            <h2>Favorite Websites</h2>
+
+            <ul>
+                <li><a href="https://www.google.com" target="_blank">Google</a></li>
+                <li><a href="https://github.com" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Contact Form -->
+        <section id="contact">
+            <h2>Contact Form</h2>
+
+            <form>
+
+                <fieldset>
+                    <legend>Personal Details</legend>
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Enter your name">
+                    <br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Enter your email">
+                    <br><br>
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone">
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Gender</legend>
+
+                    <input type="radio" id="male" name="gender">
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">Female</label>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Skills</legend>
+
+                    <input type="checkbox" id="html">
+                    <label for="html">HTML</label>
+
+                    <input type="checkbox" id="css">
+                    <label for="css">CSS</label>
+
+                    <input type="checkbox" id="python">
+                    <label for="python">Python</label>
+                </fieldset>
+
+                <br>
+
+                <label for="dept">Department:</label>
+
+                <select id="dept">
+                    <option>CSE</option>
+                    <option>ECE</option>
+                    <option>EEE</option>
+                    <option>MECH</option>
+                </select>
+
+                <br><br>
+
+                <label for="message">Message:</label>
+                <br>
+
+                <textarea id="message" rows="5" cols="40"></textarea>
+
+                <br><br>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Naresh. All Rights Reserved.</p>
+
+        <a href="#top">Back to Top</a>
+    </footer>
+
+</body>
+</html>
